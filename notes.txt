@@ -1,0 +1,34 @@
+// Admin Notes
+1. Kode seputar Dashboard Admin -> app/Http/Controllers/Admin/DashboardController.php
+2. Kode seputar Customers Admin -> app/Http/Controllers/Admin/CustomerController.php
+3. Kode seputar Products Admin -> app/Http/Controllers/Admin/ProductController.php
+4. Kode seputar Payments Admin -> app/Http/Controllers/Admin/PaymentController.php
+5. Kode seputar Admin Contacts Admin -> app/Http/Controllers/Admin/ContactController.php
+
+// Customer Notes
+1. Kode seputar Ongkir Customer -> app/Http/Controllers/Customer/AddressController.php
+2. Kode seputar Cart Customer -> app/Http/Controllers/Customer/CartController.php
+3. Kode seputar Pembayaran Customer -> app/Http/Controllers/Customer/PaymentController.php & app/Http/Controllers/Customer/DetailPaymentController.php
+4. Kode seputar Product Customer -> app/Http/Controllers/Customer/ProductController.php
+5. Kode seputar Dashboard Customer -> app/Http/Controllers/Customer/DashboardController.php
+6. Kode seputar Contact Admin Customer -> app/Http/Controllers/Customer/ContactController.php
+
+// Model
+Kode seputar Model database ada di directory app/Models
+
+// Migration
+Kode seputar Migrasi database ada di directory database/migrations
+
+// Seeder (Data Dummy)
+Kode seputar Seeder database ada di directory database/seeders
+
+// CSS & JS
+Kode seputar CSS & JS ada di directory public/css & public/JS
+
+// Views
+Kode untuk semua view pada website ada di directory resources/views
+
+// Routes
+Kode untuk semua route di website ada di directory routes/web.php
+
+php artisan migrate:fresh --seeder=DatabaseSeeder
