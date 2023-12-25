@@ -17,7 +17,7 @@
             </form>
             <div class="d-flex flex-column gap-4">
                 <h1 class="fs-4 text-center">Plafon PVC Boards</h1>
-                <div class="row justify-content-center mt-4" id="results">
+                <div class="row gy-4 gx-4 justify-content-center mt-4" id="results">
                     @foreach ($data['boards'] as $board)
                         <div class="col-12 col-md-4 col-lg-3">
                             <div class="card">
@@ -48,7 +48,7 @@
             </div>
             <div class="d-flex flex-column gap-4">
                 <h1 class="fs-4 text-center">Plafon PVC Equipments</h1>
-                <div class="row justify-content-center mt-4">
+                <div class="row gy-4 gx-4 justify-content-center mt-4">
                     @foreach ($data['equipments'] as $equipment)
                         <div class="col-12 col-md-4 col-lg-3">
                             <div class="card">
